@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:layout_marginTop="6dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp">
+
+    <TextView
+        tools:text = "Sample name"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/tv_album_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        tools:text = "Sample release date"
+        android:id="@+id/tv_album_release_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
